@@ -1,5 +1,5 @@
 # Responsive website
 
-### Surce
+### Source
 
 Task from HTML & CSS course

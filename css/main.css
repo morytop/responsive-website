@@ -8,6 +8,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.hero-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .65);
+}
+
 /* NAWIGACJA */
 
 nav {
@@ -32,4 +38,49 @@ nav {
 
 .nav-desktop {
     display: none;
+}
+
+/* HEADER */
+
+.header-img {
+    position: relative;
+    height: 330px;
+    background-image: url('../img/wolf-2234511_640.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 3px 5px 5px black;
+    text-align: center;
+}
+
+.header-text h1 {
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.header-text span {
+    color: rgb(0, 146, 255);
+}
+
+.header-text p {
+    font-size: 14px;
+}
+
+@media (min-width: 400px) {
+
+    .header-text h1 {
+        margin-bottom: 10px;
+        font-size: 36px;
+    }
+
+    .header-text p {
+        font-size: 18px;
+    }
 }
