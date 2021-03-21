@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -175,6 +179,31 @@ section {
     transition: transform .5s;
 }
 
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+
+.contact i {
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 160%;
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    line-height: 80px;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(192, 192, 194);
+}
+
 @media (min-width: 400px) {
     .header-text h1 {
         margin-bottom: 10px;
@@ -183,5 +212,9 @@ section {
 
     .header-text p {
         font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
     }
 }
